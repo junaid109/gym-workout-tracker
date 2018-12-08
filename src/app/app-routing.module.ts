@@ -5,9 +5,9 @@ import { WorkoutsComponent } from './workouts/workouts.component';
 import { EntryEditorComponent } from './entry-editor/entry-editor.component';
 
 const routes: Routes = [
-  {path: '', component: HomeComponent},
-  {path: 'workouts', component: WorkoutsComponent},
-  {path: 'workout/:id', component: EntryEditorComponent}
+  { path: '', component: HomeComponent },
+  { path: 'workouts', component: WorkoutsComponent },
+  { path: 'workouts/:id', component: EntryEditorComponent}
 ];
 
 @NgModule({
